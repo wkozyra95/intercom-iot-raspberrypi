@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "458403743636",
+    "firebase_url": "https://intercom-raspberry.firebaseio.com",
+    "project_id": "intercom-raspberry",
+    "storage_bucket": "intercom-raspberry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458403743636:android:94e0f3eded18b95a",
+        "android_client_info": {
+          "package_name": "com.intercom.raspberry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458403743636-3slp3ne7ou2nhm4t3fmt8va2k8cbl503.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD07CrlCj54OFFcsRJsQ5z-EnVWmOx-XY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,6 +3,8 @@ from flask import Flask, render_template, Response
 
 # emulated camera
 from mock_camera import Camera
+from intercom import listen
+import threading
 
 # Raspberry Pi camera module (requires picamera package)
 # from camera_pi import Camera
@@ -32,4 +34,5 @@ def video_feed():
 
 
 if __name__ == '__main__':
+    threading.Thread(target=listen).start()
     app.run(host='0.0.0.0', debug=True, threaded=True)
