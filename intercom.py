@@ -10,10 +10,7 @@ def listen():
 
 def send_notification():
 
-    gcm = GCM("AIzaSyBAVixFI3TstsRFvVwpalsWmWvyIj1urOs")
-    data = {'the_message': 'You have x new friends', 'param2': 'value2'}
-
-    reg_id = "DEVICE_REGISTRATION_TOKEN"
-    gcm.plaintext_request(registration_id=reg_id, data=data)
+    gcm = GCM("AAAAarr-B5Q:APA91bECRbwFs-raUrOYzFlQ-7Wb5Hk6IdDL3ZYVMzeyNIf2K6dCL9rimTXBTaGlJ1GNpXgFy5Kvfi6CxvXWvLagounBvczpBMbAj6z_gw4Vyy3DxZ4PTsbQfQiHbmnu1FIsHC4ssPDU")
+    gcm.send_topic_message(topic='INTERCOM', data={'message': 'Someone is calling!'})
 
 
